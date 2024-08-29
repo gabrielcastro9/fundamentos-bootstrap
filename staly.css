@@ -1,0 +1,73 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centraliza os itens horizontalmente */
+  justify-content: center; /* Centraliza os itens verticalmente (se houver espaço suficiente) */
+  min-height: 100vh; /* Garante que o corpo ocupe a altura total da viewport */
+  margin: 0; /* Remove a margem padrão do body */
+}
+
+.header {
+  margin: 20px 0;
+  text-align: center; /* Centraliza a logo */
+}
+
+.header img {
+  max-width: 100%; /* Garante que a imagem não exceda a largura do contêiner */
+  height: auto; /* Mantém a proporção da imagem */
+  width: 150px; /* Define a largura da logo (ajuste conforme necessário) */
+  border-radius: 5px; /* Adiciona bordas arredondadas, se desejado */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra sutil para dar profundidade */
+}
+
+.hero {
+  background-color: #343a40;
+  color: white;
+  padding: 50px 0;
+  text-align: center; /* Centraliza o texto na seção hero */
+}
+
+.heroTxt1 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.heroTxt2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.heroTxt3 {
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+
+.contactForm {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%; /* Adiciona largura total ao formulário */
+  max-width: 500px; /* Limita a largura do formulário */
+  margin: 20px 0; /* Adiciona margem em cima e embaixo do formulário */
+}
+
+.contactCol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%; /* Largura total para o rodapé */
+}
+
+.footerText {
+  margin: 0;
+}
